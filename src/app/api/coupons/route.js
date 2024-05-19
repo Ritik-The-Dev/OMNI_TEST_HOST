@@ -210,3 +210,6 @@ export async function PATCH(req) {
         })
     }
 }
+
+export const maxDuration = 600;
+export const dynamic = 'force-dynamic';

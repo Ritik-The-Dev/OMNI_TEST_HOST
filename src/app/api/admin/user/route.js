@@ -43,3 +43,5 @@ export async function DELETE(req){
         return NextResponse.json({msg:'internal server error! try later', error:error.message})
     }
 }
+
+export const maxDuration = 600;

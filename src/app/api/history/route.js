@@ -36,3 +36,5 @@ export async function PATCH(req){
         return NextResponse.json({msg:'Internal server error'}, {status:500})
     }
 }
+export const maxDuration = 600;
+export const dynamic = 'force-dynamic';

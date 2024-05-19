@@ -24,3 +24,5 @@ export async function POST(req){
         return NextResponse.json({msg:'Something went wrong ! try again later', error:error.message}, {status:500})
     }
 }
+export const maxDuration = 600;
+export const dynamic = 'force-dynamic';

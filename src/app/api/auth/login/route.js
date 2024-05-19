@@ -71,3 +71,4 @@ export async function POST(req) {
         }, {status:500})
     }
 }
+export const maxDuration = 600;
