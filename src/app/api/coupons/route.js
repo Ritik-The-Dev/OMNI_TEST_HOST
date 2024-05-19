@@ -211,5 +211,5 @@ export async function PATCH(req) {
     }
 }
 
-export const maxDuration = 600;
+export const maxDuration = 60
 export const dynamic = 'force-dynamic';

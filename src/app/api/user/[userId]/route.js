@@ -22,5 +22,5 @@ export async function GET(req, {params}){
        return NextResponse.json({msg:'Internal server error', error:error.message}, {status:500})
     }
 }
-export const maxDuration = 600;
+export const maxDuration = 60
 export const dynamic = 'force-dynamic';

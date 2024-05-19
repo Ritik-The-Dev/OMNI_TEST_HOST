@@ -85,5 +85,5 @@ export async function PUT(req){
         return NextResponse.json({msg:'Internal server error !'}, {status:500})
     }
 }
-export const maxDuration = 600;
+export const maxDuration = 60
 export const dynamic = 'force-dynamic';

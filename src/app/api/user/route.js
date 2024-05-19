@@ -132,5 +132,5 @@ export async function DELETE(req){
 }
 
 // create patch request
-export const maxDuration = 600;
+export const maxDuration = 60
 export const dynamic = 'force-dynamic';
